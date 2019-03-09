@@ -83,7 +83,7 @@ void runtask()
         {
             for (int j = 1; j <= n / 2; j++)
             {
-                while (it->second < 4)
+                while (it->second < 4 && it!=c.end())
                     it++;
                 if (it == c.end())
                     break;
